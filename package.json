@@ -1,0 +1,25 @@
+{
+  "name": "dohd",
+  "version": "0.0.0",
+  "description": "Local DNS server with DNS-over-HTTPS (DoH) upstream",
+  "author": "Gavin Lloyd <gavinhungry@gmail.com>",
+  "license": "MIT",
+
+  "homepage": "https://github.com/gavinhungry/dohd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gavinhungry/dohd.git"
+  },
+
+  "keywords": [
+    "doh",
+    "dns",
+    "https"
+  ],
+
+  "main": "dohd.js",
+
+  "dependencies": {
+    "dohc": "0.0.x"
+  }
+}
